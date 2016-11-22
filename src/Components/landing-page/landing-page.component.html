@@ -1,0 +1,32 @@
+<div class="site-wrapper">
+
+  <div class="site-wrapper-inner">
+
+    <div class="cover-container">
+
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">VPSMatchFrontEnd</h3>
+          <nav class="nav nav-masthead">
+            <a [routerLink]="['/']" class="nav-link active" href="#">Home</a>
+            <a [routerLink]="['/search']"class="nav-link" href="#">Search</a>
+            <a [routerLink]="['/login']" class="nav-link" href="#">Login</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="inner cover">
+       <router-outlet></router-outlet>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
